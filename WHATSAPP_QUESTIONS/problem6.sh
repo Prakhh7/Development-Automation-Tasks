@@ -1,4 +1,5 @@
 #bin/bash
+#Prinitng do with *
 
 echo " *****        ****"
 echo " *    *      *    *"
