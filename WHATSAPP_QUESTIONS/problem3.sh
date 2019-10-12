@@ -1,7 +1,6 @@
 #bin/bash
 
-echo "Enter the number"
-read n
+read -p "Enter number : " n
 
 number=$n
 reverse=0
