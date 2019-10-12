@@ -1,4 +1,5 @@
 #bin/bash
+#Checking for palindrome
 
 read -p "Enter number : " n
 
