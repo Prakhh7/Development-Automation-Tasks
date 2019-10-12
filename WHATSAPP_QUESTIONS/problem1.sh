@@ -1,4 +1,5 @@
 #bin/bash
+#Converting hexadecimal to binary
 
 echo "Enter a Hexadecimal Number with spaces between digits : "
 read -a string
