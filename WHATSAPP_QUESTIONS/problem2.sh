@@ -1,4 +1,5 @@
 #bin/bash
+#Converting octal to binary
 
 echo "Enter a Octal Number with spaces between digits : "
 read -a string
