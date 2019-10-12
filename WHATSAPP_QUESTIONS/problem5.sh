@@ -1,9 +1,8 @@
 #bin/bash
 
-echo "Enter a number: "
-read c
+read -p "Enter a number : " number
 
-x=$c
+x=$number
 sum=0
 r=0
 n=0
@@ -15,7 +14,7 @@ sum=`expr $sum + $n`
 x=`expr $x / 10`
 done
 
-if [ $sum -eq $c ]
+if [ $sum -eq $number ]
 then
 echo "It is an Armstrong Number."
 else
