@@ -12,7 +12,7 @@ n=`expr $n / 10 `
 reverse=`expr $reverse \* 10 + $a`
 done
 
-echo $reverse
+echo "Reverse number is : $reverse"
 
 if [ $number -eq $reverse ]
 then
