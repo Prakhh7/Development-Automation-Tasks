@@ -1,10 +1,6 @@
 #bin/bash
-
-b=$?
-read -e -p "Enter the command to check : " command
-test=`$command`
-a=$?
-if [ $a -eq $b ];
+read -e -p "Enter the command to check : " com
+if [ $(command -v $com) ];
 then
 echo "Command Found"
 echo "Type of Command is $(type -p $command)"
